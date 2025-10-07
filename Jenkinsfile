@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         // Specify the Maven installation configured in Jenkins Global Tool Configuration
-        maven 'MAVEN-HOME'
+        maven 'MAVEN_HOME'
     }
 
     stages {
