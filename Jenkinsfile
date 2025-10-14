@@ -13,8 +13,7 @@ pipeline {
                 // bat "rmdir /s /q your-project-folder"
 
                 // Clone your GitHub repository - replace the URL with your actual repo
-                bat "git clone https://github.com/your-username/your-repo.git"
-
+                bat "git clone https://github.com/abhi53g/studentapp.git/"
                 // Run 'mvn clean' in your project folder - replace 'your-repo' with actual folder name
                 bat "mvn clean -f your-repo"
             }
